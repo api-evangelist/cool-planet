@@ -1,8 +1,13 @@
 aid: cool-planet
 name: Cool Planet
-description: 'Cool Planet is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'CoolPlanet is an enterprise energy-management and decarbonisation software
+  company. Its platform, CoolPlanetOS, centralises real-time energy data across multi-site
+  industrial estates, applies AI-driven anomaly detection and efficiency insights,
+  benchmarks performance across facilities, and automates energy and compliance reporting.
+  CoolPlanet pairs the software with consulting and on-site execution services to help
+  manufacturing, pharmaceutical, food and beverage, commercial real estate, mining
+  and shipping enterprises cut energy costs and carbon emissions. Backed by GV (Google
+  Ventures). No public developer API surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/cool-planet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,36 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-18'
+  status: no-api-surface
+  note: 'Enterprise decarbonisation software (CoolPlanetOS); no public developer API,
+    OpenAPI, SDKs, or webhooks published. Identity/completeness pass only.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Energy Management
+- Decarbonisation
+- Sustainability
+- Carbon Management
+- Energy Efficiency
+- IoT
+- Cleantech
 - Frontier Tech
+image: https://www.coolplanet.io/hubfs/LOGO_COLOUR@4x-8.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,13 @@ maintainers:
 common:
 - type: Website
   url: https://www.coolplanet.io
+- type: Blog
+  url: https://www.coolplanet.io/blog
+- type: SignUp
+  url: https://signup.eu.coolplanet.io/
+- type: Support
+  url: https://www.coolplanet.io/faq
+- type: TermsOfService
+  url: https://www.coolplanet.io/legal/terms
+- type: PrivacyPolicy
+  url: https://www.coolplanet.io/legal/privacy-policy
